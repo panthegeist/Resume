@@ -1,0 +1,28 @@
+# clone repository from any location:
+git clone [name of repo]
+
+#Example: git clone https://github.com/panthegeist/Resume.git
+#Note: Must include .git at end of repo location
+
+# edit some files
+
+# add them to the index
+git add file1.txt
+git add file2.gif
+
+#Note: Quick command to add all is 'git add .'
+
+# review your changes
+git status
+
+# commit the changes
+git commit -m "Description of my change"
+
+# push them back to the remote repository
+git push origin master
+
+# how to show current configuration of remote repo
+git remote show origin
+
+# git branch commands allow you to chagne branches
+git branch -h
